@@ -100,7 +100,7 @@ nav ul li:hover {
     text-align: center;
     padding: 20px;
     width: 100%;
-    position: absolute;
+    position:sticky;
     bottom: 0;
 }
 
@@ -206,7 +206,7 @@ a{
 
 .main__container{
   
-    width: 50%;
+    width: 100%;
     margin: auto;
       
     
