@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment-2 Project Page</title>
+    <link rel="stylesheet" href="./style/project.css"></link>
+</head>
+    <header class="header">
+        <h1>The Git Commands to Link the Local and Remote Repos</h1>
+    </header>
+<body>
+    <section class="grid-content">
+        <div class="grid-content__item">
+            <h3>Step 1: Create a new directory.</h3>
+            <div class="border-box">
+                <pre><code>mkdir (directory name)</pre></code>    
+            </div>
+            <p>This command creates a new directory name (example:mkdir git-project)</p>
+        </div>
+
+        <div class="grid-content__item">
+            <h3>Step 2:Navigate to the project directory.</h3>
+            <div class="border-box">
+                <pre><code>cd /path/to/your/project-directory</pre></code>
+            </div>
+            <p>This command is used for to navigate to the project </p>
+            <p>example: cd ~/documents/git-project</p>
+
+        </div>
+
+        <div class="grid-content__item">
+            <h3>Step 3. Initialize a local repository(if not already intilized)</h3>
+            <div class="border-box">
+                <pre><code>git init</code></pre>
+            </div>
+            <p>This command is used to Initialize a local Git repository.</p>
+        </div>
+
+        <div class="grid-content__item">
+            <h3>Step 4: Create a new file</h3>
+            <div class="border-box">
+                <pre><code>touch filename.txt</code></pre>
+            </div>
+            <p>This command is used for creates a new file</p>
+        </div>
+
+        <div class="grid-content__item">
+            <h3>Step 5: Check the status of your repository</h3>
+            <div class="border-box">
+                <pre><code>git status</code></pre>
+            </div>
+            <p>This command is used  to check the status of your repository</p>
+        </div>
+
+        <div class="grid-content__item">
+            <h3>Step 6: Add the file to the staging area</h3>
+            <div class="border-box">
+                <pre><code>git add (filename) or git add . </code></pre>
+            </div>
+            <p>This command is used for Add the file to the staging area </p>
+        </div>
+
+        <div class="grid-content__item">
+            <h3>Step 7: Make a Local commit</h3>
+            <div class="border-box">
+                <pre><code>git commit -m "intial commit" </code></pre>
+            </div>
+            <p>This command is used for creates a local commit</p>
+        </div>
+
+        <div class="grid-content__item">
+            <h3>Step 8: Add the remote repository URL</h3>
+            <div class="border-box">
+                <pre><code>git remote add origin &lt;remote-repo-URL&gt;</code></pre>
+            </div>
+            <p>This command used for Add the remote repository URL</p>
+        </div>
+
+        <div class="grid-content__item">
+            <h3>Step 9. Verify the remote repository</h3>
+            <div class="border-box">
+                <pre><code>git remote -v</code></pre>
+            </div>
+            <p>This command is used for verify the remote repository</p>
+        </div>
+
+        <div class="grid-content__item">
+            <h3>Step 10. Push local code to the remote repository</h3>
+            <div class="border-box">
+                <pre><code>git push -u origin master</code></pre>
+            </div>
+            <p>This command is used for to Push the local code to the remote repository</p>
+        </div>
+            
+ </section>
+</body>
+<footer class="footer">
+    <div class="container">
+        <p>copyright2024@ 5girls</p>
+</footer>
+</html>
