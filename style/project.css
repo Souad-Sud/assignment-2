@@ -1,4 +1,5 @@
 * {
+<<<<<<< HEAD
     box-sizing: border-box;
 }
 
@@ -62,4 +63,150 @@ pre {
     .grid-content {
         grid-template: repeat(4, 200px) / repeat(2, calc(45% - 24px));
     }
+=======
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+    height: 100vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.header {
+    background-color: rgb(118, 199, 199);
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 1rem;
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+}
+
+.header h1:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.commands-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.command {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(103, 202, 196, 0.1);
+    position: relative;
+    transform: perspective(500px) rotateY(0deg);
+    transition: transform 0.3s ease,;
+    border-bottom: 5px solid rgb(108, 218, 218);
+}
+
+.command:hover {
+    transform: perspective(500px) rotateY(5deg);
+    box-shadow: 0 6px 12px rgba(70, 181, 183, 0.2);
+}
+
+.command h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.command code {
+    display: block;
+    background-color: #d8dadb;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.command p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/*main*/
+main {
+    color: black;
+    text-align: center;
+    margin: 50px 0;
+    padding: 50px 0;
+}
+
+
+section {
+    margin-bottom: 40px;
+}
+
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+p, li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+pre {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.footer {
+    background-color: #6dc3bf;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position:sticky;
+    bottom: 0;
+}
+
+.footer p {
+    font-size: 1rem;
+    margin: 0;
+>>>>>>> 3f3250ce0aba96811c3914e6861f6ebec81e16d8
 }
