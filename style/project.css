@@ -15,7 +15,7 @@ body {
 /* grid -content */
 
 .grid-content {
-    background-color:#384749;
+    background-color: #384749;
     display: grid;
     gap: 24px;
     grid-template: repeat(4, 200px) / repeat(3, calc(30% - 48px / 3));
@@ -25,10 +25,9 @@ body {
 .grid-content__item {
     background-color: #bde0fe;
     border-radius: 8px;
-    border: 1px solid #ccc ;
+    border: 1px solid #ccc;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0 0 0 1);
-        
+    box-shadow: 0 4px 8px rgba(0 0 0 1);     
 }
 
 .border-box {
@@ -54,12 +53,12 @@ pre {
 
 /*Responsive Grid */
 
-@media screen and  (min-width: 768px) {
+@media screen and(min-width: 768px) {
     .grid-content {
         grid-template: repeat(4, 200px) / 1fr;
     }
 }
-@media screen and (min-width: 1024px) {
+@media screen and(min-width: 1024px) {
     .grid-content {
         grid-template: repeat(4, 200px) / repeat(2, calc(45% - 24px));
     }
