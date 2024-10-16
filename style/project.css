@@ -1,3 +1,6 @@
+/* Srilatha's part
+Basic content   */
+
 * {
     box-sizing: border-box;
 }
@@ -5,6 +8,7 @@
 body {
     margin: 0;
 }
+
 /* header */
 .header-sri {
     background-color: rgb(190, 199, 172);
@@ -12,8 +16,7 @@ body {
     text-align: center;
 }
 
-/* grid -content */
-
+/* grid-content */
 .grid-content {
     background-color: #384749;
     display: grid;
@@ -51,8 +54,7 @@ pre {
     text-align: center;
 }
 
-/*Responsive Grid */
-
+/*Responsive part */
 @media screen and(min-width: 768px) {
     .grid-content {
         grid-template: repeat(4, 200px) / 1fr;
