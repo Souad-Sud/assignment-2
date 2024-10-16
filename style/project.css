@@ -18,6 +18,7 @@ body {
     position: relative;
 }
 
+/* kavitha part*/
 .header {
     background-color: rgb(118, 199, 199);
     color: black;
@@ -84,7 +85,9 @@ body {
     font-size: 0.9rem;
     line-height: 1.4;
 }
+/*..*/
 
+/* yasmine part*/
 header p {
     font-size: 1.2rem;
 }
@@ -120,6 +123,7 @@ pre {
     overflow-x: auto;
 }
 
+/*kavitha part*/
 /* Responsive Design */
 @media (max-width: 768px) {
     header h1 {
