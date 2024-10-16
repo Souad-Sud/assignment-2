@@ -1,5 +1,4 @@
 * {
-<<<<<<< HEAD
     box-sizing: border-box;
 }
 
@@ -63,10 +62,6 @@ pre {
     .grid-content {
         grid-template: repeat(4, 200px) / repeat(2, calc(45% - 24px));
     }
-=======
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 html { 
@@ -208,5 +203,4 @@ pre {
 .footer p {
     font-size: 1rem;
     margin: 0;
->>>>>>> 3f3250ce0aba96811c3914e6861f6ebec81e16d8
 }
