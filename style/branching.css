@@ -1,0 +1,26 @@
+.branch_introduction{
+    margin: 100px 300px 100px 300px;
+    
+}
+
+.branch_introduction h2 {
+    margin-bottom: 100px;
+
+    display: block;
+    margin-right: 20px;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 5rem;
+
+   
+}
+
+.branch_introduction p {
+    
+    font-size: 1.7rem;
+    background-color: #6dc3bf;
+    padding: 50px;
+    color: white;
+    
+   
+}
