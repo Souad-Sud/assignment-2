@@ -7,9 +7,45 @@
     <link rel="stylesheet" href="style/changes.css">
 </head>
 <body>
+    <!----Srilatha's Changes part ---->
     <header class="header_sri_changes">
-        <h1></h1>
+        <h1>Git Commands for Adding Changes to an Existing Repository</h1>
     </header>
+    <section>
+        <h2>Step-by-Step Guide</h2>
+        <ol>
+            <li>
+                <h3>Check Repository Status</h3>
+                <p>Use <code>git status</code> to check the current state of the repository.</p>
+                <pre><code>git status</code></pre>
+            </li>
+            
+            <li>
+                <h3>Stage Changes</h3>
+                <p>Use <code>git add</code> to stage changes. You can stage specific files or all changes:</p>
+                <pre><code>git add &lt;filename&gt;</code></pre>
+                <pre><code>git add .</code></pre>
+            </li>
+            
+            <li>
+                <h3>Check Staged Changes</h3>
+                <p>Verify which files are staged for the next commit:</p>
+                <pre><code>git status</code></pre>
+            </li>
+
+            <li>
+                <h3>Commit the Changes</h3>
+                <p>Commit the staged changes with a descriptive message:</p>
+                <pre><code>git commit -m "Your commit message"</code></pre>
+            </li>
+
+            <li>
+                <h3>Push to Remote Repository</h3>
+                <p>Push the committed changes to the remote repository:</p>
+                <pre><code>git push origin &lt;branch-name&gt;</code></pre>
+            </li>
+        </ol>
+    </section>
     
 </body>
 </html>
