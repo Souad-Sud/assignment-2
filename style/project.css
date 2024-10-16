@@ -18,6 +18,53 @@ body {
     position: relative;
 }
 
+.header {
+    padding: 16px;
+    display: flex;
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: black;
+    margin-top: 5px;
+}
+
+h1 img {
+   width: 30px;
+   height: auto;
+   padding-right: 3px;
+}
+
+nav ul { 
+    list-style: georgian;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding-left: 5px;
+
+}
+
+nav ul li a:nth-child(1) {
+    padding-left: 50px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    color: rgb(229, 12, 12);
+}
+
 /* kavitha part*/
 .header-kavi {
     background-color: rgb(118, 199, 199);
