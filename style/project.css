@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 /* header */
-.header {
+.header-sri {
     background-color: rgb(190, 199, 172);
     padding: 24px;
     text-align: center;
@@ -79,7 +79,7 @@ body {
 }
 
 /* kavitha part*/
-.header {
+.header-kavi {
     background-color: rgb(118, 199, 199);
     color: black;
     text-align: center;
