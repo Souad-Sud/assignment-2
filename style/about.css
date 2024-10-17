@@ -1,0 +1,80 @@
+/* About us css */
+.about_us{
+   
+    margin: 200px 300px 100px 300px;
+}
+
+.about_us h1 {
+    font-size: 2.9rem;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+/* Yasmin Presentation */
+
+/* Here */
+
+/* Srilatha presentatio */
+/* Here */
+
+
+
+/* Souad Presentation */
+
+.Souad_presentation{
+    display: flex;
+    flex-direction:  row-reverse;
+}
+
+.souad_pre_block{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    padding: 30px;
+    
+     
+}
+
+
+.souad_pre_block h2 {
+    font-size: 1.9rem;
+    margin-bottom: 50px;
+}
+ 
+
+.souad_pre_block h3{
+    font-size: 1.5rem;
+    
+}
+
+
+.souad_pre_block p {
+    font-size: 1.5rem;
+}
+  
+
+/* kavitha presentation */
+/* Here */
+ 
+
+
+/* Mariym presentation */
+/* Here */
+
+
+
+
+@media   (max-width: 1600px){
+
+    img {
+        width: auto;
+    }
+    .Souad_presentation {
+        background-color: red;
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+}

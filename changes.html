@@ -1,16 +1,50 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/index.css" type="text/css">
     <link rel="stylesheet" href="style/changes.css">
+    <title>assignment-2</title>
 </head>
+
 <body>
-    <!----Srilatha's Changes part ---->
-    <header class="header_sri_changes">
-        <h1>Git Commands for Adding Changes to an Existing Repository</h1>
+    <header class="header">
+        <!-- Souad* the title should be in a container and the img should be outside the h1-->
+
+        <div class="header_title">
+
+            <h1>
+
+                Git & Github basics
+            </h1>
+            <img src="./style/images/githubimage.png" alt="githubimage" h>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="project.html">Our Project</a></li>
+                <li><a href="changes.html">Changes</a></li>
+                <li><a href="branching.html">Branching</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+        </nav>
     </header>
+
+
+
+    <!--Srilatha's Changes part -->
+    <main class="header_sri_changes">
+        <h1>Git Commands for Adding Changes to an Existing Repository</h1>
+    </main>
+
+
+
     <section>
         <h2>Step-by-Step Guide</h2>
         <ol>
@@ -19,14 +53,14 @@
                 <p>Use <code>git status</code> to check the current state of the repository.</p>
                 <pre><code>git status</code></pre>
             </li>
-            
+
             <li>
                 <h3>Stage Changes</h3>
                 <p>Use <code>git add</code> to stage changes. You can stage specific files or all changes:</p>
                 <pre><code>git add &lt;filename&gt;</code></pre>
                 <pre><code>git add .</code></pre>
             </li>
-            
+
             <li>
                 <h3>Check Staged Changes</h3>
                 <p>Verify which files are staged for the next commit:</p>
@@ -45,6 +79,12 @@
                 <pre><code>git push origin &lt;branch-name&gt;</code></pre>
             </li>
         </ol>
-    </section>  
+    </section>
+
+
+    <footer class="footer">
+        <p>&copy; 2024 5Girls</p>
+    </footer>
 </body>
+
 </html>

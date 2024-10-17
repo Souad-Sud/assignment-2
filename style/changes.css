@@ -18,7 +18,8 @@ body {
 }
 
 /* Header Styling */
-header {
+.header_sri_changes {
+    margin-top: 200px;
     background-color: #110f0f;
     color: #ca1a1a;
     padding: 20px;
@@ -26,7 +27,7 @@ header {
     margin-bottom: 20px;
 }
 
-header h1 {
+.header_sri_changes h1 {
     font-size:  2rem;
     font-weight: normal;
 }
