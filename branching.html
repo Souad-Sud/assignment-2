@@ -48,10 +48,56 @@
 
         </div>
 
-
-
     </section>
 
+    <!----------Mariym Aqbal --------->
+    <section class="Merge_Files">
+        <h2>Merge Files</h2>
+        <p><strong>To merge files in GitHub</strong> you typically follow these steps:</p>
+        <ol>
+            <li>
+                Create a New Branch: create a new branch for your changes:
+                <div class="command-box">
+                    git checkout -b &lt;new-branch-name&gt;
+                </div>
+            </li>
+            <li>
+                Make Changes: Edit or add the files you want to merge.
+            </li>
+            <li>
+                Stage Your Changes: Add the changes to the staging area:
+                <div class="command-box">
+                    git add &lt;file1&gt; &lt;file2&gt; ...
+                </div>
+            </li>
+            <li>
+                Commit Your Changes: Commit the staged changes with a message:
+                <div class="command-box">
+                    git commit -m "Describe your changes"
+                </div>
+            </li>
+            <li>
+                Push Your Branch: Push your branch to the remote repository:
+                <div class="command-box">
+                    git push origin &lt;new-branch-name&gt;
+                </div>
+            </li>
+            <li>
+                Create a Pull Request: Go to the GitHub repository in your web browser. You'll see an option to create a pull request for your newly pushed branch.
+            </li>
+            <li>
+                Review and Merge: After reviewing, you can merge the pull request. You may need to resolve any merge conflicts if there are changes on the base branch.
+            </li>
+            <li>
+                Delete the Branch: Once merged, you can delete the branch both locally and remotely:
+                <div class="command-box">
+                    git branch -d &lt;new-branch-name&gt;<br>
+                    git push origin --delete &lt;new-branch-name&gt;
+                </div>
+            </li>
+        </ol>
+        <p>That's it! Your files are now merged in the repository.</p>
+    </section>
 
 
 
