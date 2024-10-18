@@ -57,12 +57,46 @@
 
 /* kavitha presentation */
 /* Here */
+.about-kavi-content h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.kavi-container {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-kavi-content {
+    background-color: #97bec2;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.about-kavi-content h2 {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.about-kavi-content p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
  
 
 
 /* Mariym presentation */
 /* Here */
-
 
 
 
@@ -76,5 +110,22 @@
         display: flex;
         flex-direction: column-reverse;
         
+    }
+}
+
+/*kavitha part*/
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .about-kavi-content {
+        padding: 20px;
+    }
+
+    .about-kavi-content h1 {
+        font-size: 1.5rem;
+    }
+
+
+    .about-kavi-content h2 {
+        font-size: 1.2rem;
     }
 }
