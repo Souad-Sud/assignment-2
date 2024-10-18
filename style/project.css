@@ -5,9 +5,6 @@ Basic content   */
     box-sizing: border-box;
 }
 
-
-  
-
 .header {
     padding: 16px;
     display: flex;
@@ -163,9 +160,7 @@ nav ul li:hover {
      
 }
 
-/* Kkavi Git Commands for Creating a Local Project */
-
-
+/* kavi Git Commands for Creating a Local Project */
 .kavi-header{
     margin: 150px 380px 150px 380px;
     background-color: rgb(118, 199, 199);
@@ -175,13 +170,10 @@ nav ul li:hover {
     position: relative;
 }
 
- 
 .kavi-header h2 {
     font-size: 2.6rem;
     transition: transform 0.3s ease;
 }
-
-
 
 .kavi-header h2:hover {
     transform: scale(1.1);
