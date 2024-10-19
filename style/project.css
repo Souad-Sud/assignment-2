@@ -54,7 +54,7 @@ nav ul li:hover {
 
 
 /* header */
-.header-sri {
+.header-sree {
     background-color: rgb(190, 199, 172);
     margin: 100px 0px 100px 0px;
     padding: 24px;
@@ -62,7 +62,7 @@ nav ul li:hover {
 }
 
 /* grid-content */
-.grid-content-sri {
+.grid-content-sree {
     background-color: #384749;
     display: grid;
     gap: 24px;
@@ -70,7 +70,7 @@ nav ul li:hover {
     padding: 24px;
 }
 
-.grid-content__item-sri {
+.grid-content__item-sree {
     background-color: #bde0fe;
     border-radius: 8px;
     border: 1px solid #ccc;
