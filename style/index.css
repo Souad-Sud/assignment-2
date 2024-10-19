@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
+
 html { 
     height: 100vh;
 }
-
+ 
  
 
 /* Header*/
@@ -20,10 +21,14 @@ html {
     margin: 50px 20px 50px 20px;
 }
 
+.header_title {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 
 .header img{
-    width: 30px;
-    height: auto;
+    width: 35px;  
     padding-right: 10px;
 
 }
@@ -78,7 +83,7 @@ nav ul li:hover {
     flex-direction: column; 
     align-items: center;
     height: 100%;
-    margin: auto;
+    margin: 200px auto 100px auto;
 }
 
 .section__introduction h1 {
@@ -95,11 +100,18 @@ nav ul li:hover {
 
 /*footer*/
 .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   
+    
+   
     background-color: #6dc3bf;
     text-align: center;
     padding: 20px;
     width: 100%;
-    position:sticky;
+    
     bottom: 0;
 }
 
@@ -189,7 +201,7 @@ a{
 
 
 
-
+ 
 
 /* Responsive*/
 @media (max-width: 1024px) {
@@ -259,5 +271,22 @@ a{
 }
 
 
+
+/* home page is Responsive */
+@media (max-width: 1300px){
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+         
+    }
+
+    .section__introduction{
+        padding: 20px;
+    }
+}
 
  
