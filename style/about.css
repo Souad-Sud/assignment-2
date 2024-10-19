@@ -1,15 +1,23 @@
-/* About us css */
-.about_us{
-   
-    margin: 200px 300px 100px 300px;
+
+.about_us {
+    margin: 50px auto;
+    padding: 2rem;
+    max-width: 1200px;
 }
 
-.about_us h1 {
-    font-size: 2.9rem;
+.intro-section {
+    background-color: #f9f9f9;
+    padding: 2rem;
     text-align: center;
-    margin-bottom: 100px;
-
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    margin-bottom: 2rem; 
+    max-width: 1000px;   
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 /* Yasmin Presentation */
 
@@ -85,29 +93,50 @@ body {
     padding: 30px;
     
      
+
+.team-grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 
-.souad_pre_block h2 {
-    font-size: 1.9rem;
-    margin-bottom: 50px;
+.team-member {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
- 
 
-.souad_pre_block h3{
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+
+.team-member h2 {
+    margin-bottom: 0.5rem;
+    color: #2980b9;
     font-size: 1.5rem;
-    
 }
 
-
-.souad_pre_block p {
-    font-size: 1.5rem;
+.team-member p {
+    font-size: 1rem;
+    color: #7f8c8d;
 }
-  
-
-/* kavitha presentation */
-/* Here */
- 
 
 
 /* Mariym presentation */
@@ -140,10 +169,23 @@ body {
     img {
         width: auto;
     }
-    .Souad_presentation {
-        background-color: red;
-        display: flex;
-        flex-direction: column-reverse;
-        
+
+@media (max-width: 768px) {
+    .about_us h1 {
+        font-size: 2rem;
     }
+
+    .team-grid {
+        grid-template-columns: 1fr; 
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
 }
