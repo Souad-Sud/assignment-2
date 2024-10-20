@@ -1,4 +1,13 @@
-
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+p{
+    font-size: 1.2rem;
+}
 .about_us {
     margin: 50px auto;
     padding: 2rem;
@@ -7,7 +16,7 @@
 
 .intro-section {
     background-color: #f9f9f9;
-    padding: 2rem;
+    padding: 5rem;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -18,20 +27,17 @@
     margin-right: auto;
 }
 
+.intro-section h1 {
+    padding: 10px;
+}
+
 
 /* Yasmin Presentation */
 
 /* Here */
 
-/* General Styling */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
+ 
+ 
 /* Section Styling */
 .frontend-learner {
     display: flex;
@@ -78,22 +84,11 @@ body {
 }
 
 
-/* Souad Presentation */
 
-.Souad_presentation{
-    display: flex;
-    flex-direction:  row-reverse;
-}
 
-.souad_pre_block{
-    display: flex;
-    flex-direction: column;
-   
-    justify-content: center;
-    padding: 30px;
-    
-     
-
+ 
+ 
+ 
 .team-grid { 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -134,7 +129,7 @@ body {
 }
 
 .team-member p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #7f8c8d;
 }
 

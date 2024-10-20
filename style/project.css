@@ -1,65 +1,3 @@
-/* Srilatha's part
-Basic content   */
-
-* {
-    box-sizing: border-box;
-}
-
-.header {
-    padding: 16px;
-    display: flex;
-}
-
-.header h1 {
-    font-size: 2rem;
-    color: black;
-    margin-top: 5px;
-}
-
-h1 img {
-   width: 30px;
-   height: auto;
-   padding-right: 3px;
-}
-
-nav ul { 
-    list-style: georgian;
-    padding: 0;
-}
-
-
-nav ul li {
-    display: flex;
-    float: left;
-    flex-wrap: wrap;
-    margin: 15px;
-    padding-left: 5px;
-
-}
-
-nav ul li a:nth-child(1) {
-    padding-left: 50px;
-}
-
-nav ul li a {
-    color: black;
-    text-decoration: none;
-    font-size: 1.3rem;
-}
-
-nav ul li:hover {
-    text-decoration: underline;
-    color: rgb(229, 12, 12);
-}
-
-
-/* header */
-.header-sri {
-    background-color: rgb(190, 199, 172);
-    margin: 100px 0px 100px 0px;
-    padding: 24px;
-    text-align: center;
-}
 
 /* grid-content */
 .grid-content-sri {
@@ -92,8 +30,10 @@ pre {
     margin: 0;
 }
 
-/* Souad repository_section */
 
+
+/* Souad repository_section */
+ 
 .repo_introduction {
     margin: 200px 200px 150px 200px;
     display: flex;
@@ -136,9 +76,12 @@ pre {
 .reposi_liste li {
     font-size: 1.5rem;
     
+    padding: 10px;
+    list-style: none;
+    
 }
 
-
+steps_create_project
 .create_repository{
      padding-left: 30px;
     margin-top: 100px;
@@ -155,10 +98,10 @@ pre {
 }
 
 /*footer */
-.footer {
+/* .footer {
     background-color: rgb(190, 199, 172);
     padding: 24px;
-}
+} */
 
 /* Mariym's steps_create_project*/
 
@@ -260,8 +203,12 @@ pre {
 }
 
 .command p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.4;
+}
+
+.command code{
+    font-size: 1.3rem;
 }
 
  
@@ -306,6 +253,7 @@ pre {
     background-color: #1a1919;
     font-family: 'Courier New', Courier, monospace;
     color: #ee0e0e;
+    font-size: 1.2rem;
 }
 
 pre {
@@ -317,44 +265,90 @@ pre {
 
   
 
-/* yasmine Contribution to a GitHub Project*/
+ 
+ 
+ 
 
-.overview{
-    margin: 150px 380px 200px 380px;
+
+/* yasmine Contribution to a GitHub Project*/
+.contribut_article{
+   text-align: center;
+   
+  
 }
 
-
-.overview h2{
+.contribut_article h2{
     font-size: 2.6rem;
     text-align: center;
 }
+.contribut_article p {
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+ 
+
+#overview{
+     margin-bottom: 30px;
+     padding: 20px;
+     
+}
+
+
+#overview h2{
+    font-size: 2.4rem;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#Contribute {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+#Contribute h2 {
+    font-size: 2.4rem;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.contribute_ordered-Lists {
+    text-align: center;
+    list-style-position: inside;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.contribute_ordered-Lists  li {
+    margin-top: 30px;
+}
+
+
+.contribute_unordered-liste {
+    
+    list-style-position: inside;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+     
+    
+}
+
+.contribute_unordered-liste li {
+    margin-top: 30px;
+}
+
+/* rename */
+ /* li{
+    padding: 1rem 2rem;
+     } */
+
 .overview p {
     font-size: 1.5rem;
 
 }
 
- 
-.ordered_list {
-    text-align: center;
-    list-style-position: inside;
-    
-}
-.ordered_list li {
-    font-size: 1.3rem;
-    padding: 10px;
-}
 
-.unordered_list {
-    text-align: center;
-    list-style-position: inside;
-}
-.unordered_list li {
-    font-size: 1.3rem;
-    padding: 10px;
-}
-
-/*main*/
-main {
+.contribute_gitsection {
     color: black;
     text-align: center;
     margin: 50px 0;
@@ -362,28 +356,30 @@ main {
 }
 
 
-section {
+/* section {
     margin-bottom: 40px;
-}
+} */
 
 
-h2 {
+/* h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
-}
+} */
 
-p, li {
+
+/* rename */
+/* p, li {
     font-size: 1rem;
     margin-bottom: 10px;
-}
+} */
 
 pre {
-    background-color: #f1f1f1;
+    background-color: #f1f1f1; 
     padding: 10px;
     border-radius: 5px;
     overflow-x: auto;
 }
- 
+/*  
 .footer {
     background-color: #6dc3bf;
     text-align: center;
@@ -396,7 +392,7 @@ pre {
 .footer p {
     font-size: 1rem;
     margin: 0;
-}
+} */
 
 /*Responsive Grid */
 

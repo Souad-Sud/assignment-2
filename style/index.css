@@ -1,15 +1,16 @@
 * { 
+    font-family: "Roboto Flex", sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
-html { 
-    height: 100vh;
+ 
+a{
+    text-decoration: none;
+   
+    
 }
- 
- 
 
 /* Header*/
 .header {
@@ -71,12 +72,15 @@ nav ul li:hover {
     color: rgb(229, 12, 12);
 }
 
- /*main*/
-.main {
-    color: black;
-    text-align: center;
-    padding: 50px 0;
+
+
+ /* main__container */
+.main__container{
+    margin-bottom: 100px;
+  
+
 }
+ 
 .section__introduction{
    
     display: flex;
@@ -98,29 +102,7 @@ nav ul li:hover {
     padding-bottom: 15px;
 }
 
-/*footer*/
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-   
-    
-   
-    background-color: #6dc3bf;
-    text-align: center;
-    padding: 20px;
-    width: 100%;
-    
-    bottom: 0;
-}
-
-.footer p {
-    font-size: 1rem;
-    margin: 0;
-}
-
-
+ 
 
 
 /* Souad CSS */
@@ -137,15 +119,11 @@ nav ul li:hover {
     
 }
 
-section p {
+.section__introduction p {
     margin-bottom: 100px;
 }
 
-a{
-    text-decoration: none;
-   
-    
-}
+ 
 
 .main__container{
   
@@ -164,13 +142,14 @@ a{
     margin-bottom: 100px;
 }
 
+ 
 .main__blocks >div{
    background-color: white;
    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-   height: 260px;
+   height: 270px;
    padding: 10px;
-   width: 235px;
-   margin: 20px;
+   width: 300px;
+   margin: 40px;
 
 }
 
@@ -185,6 +164,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
 }
 .bottom{
     border-bottom: 4px solid rgb(36, 211, 238);
@@ -198,6 +178,25 @@ a{
 .top{
     border-top: 4px solid rgb(36, 211, 238);
 }
+
+
+
+/*footer*/
+.footer {
+ 
+    margin-top: 200px;
+    background-color: #6dc3bf;
+    text-align: center;
+    padding: 20px;
+    width: 100%;    
+    
+}
+
+.footer p {
+    
+    margin: 0;
+}
+
 
 
 

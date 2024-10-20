@@ -9,9 +9,58 @@
     margin-bottom: 100px;
 }
 
+
 .branch_introduction p {
     font-size: 1.5rem;
 }
+
+
+/* main branch */
+
+.main_branch_container {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.main_branch_container .main_branch{
+    font-size: 1.6rem;
+    background-color: #6dc3bf;
+  
+
+}
+
+
+.main_branch span {
+    background-color:#6dc3bf;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.main_branch_container .vl {
+    border-left: 6px solid green;
+    height: 50px;
+    margin-top: 35px;
+}
+
+.main_branch_container .features {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+}
+
+.features p {
+    background-color: #6dc3bf;
+    padding: 17px;
+}
+
+
+
 
 .Merge_Files{
     margin: 100px 300px 100px 300px;
