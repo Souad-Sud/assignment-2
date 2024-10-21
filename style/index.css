@@ -1,8 +1,13 @@
 * { 
     font-family: "Roboto Flex", sans-serif;
+ 
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+     background-color: #f4f4f4;
 }
 
  
@@ -27,6 +32,7 @@ a{
     flex-direction: row-reverse;
 }
 
+main__block_item
 
 .header img{
     width: 35px;  
@@ -90,7 +96,7 @@ nav ul li:hover {
     margin: 200px auto 100px auto;
 }
 
-.section__introduction h1 {
+.section__introduction h2 {
     font-size: 2.5rem;
     
     margin-bottom: 20px;
@@ -160,12 +166,23 @@ nav ul li:hover {
 }
 
 .main__block_item{
+    transition: 1s ease;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
    
 }
+
+.main__block_item:hover{
+    
+     -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: 1s ease;
+}
+
+ 
 .bottom{
     border-bottom: 4px solid rgb(36, 211, 238);
 
