@@ -1,13 +1,24 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+p {
+    font-size: 1.2rem;
+}
 
 .about_us {
-    margin: 50px auto;
+    margin: 200px auto;
     padding: 2rem;
     max-width: 1200px;
 }
 
 .intro-section {
     background-color: #f9f9f9;
-    padding: 2rem;
+    padding: 5rem;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -31,6 +42,7 @@ body {
     color: #333;
 }
 
+/* Yasmin Presentation */ 
 /* Section Styling */
 .frontend-learner {
     display: flex;
@@ -101,7 +113,6 @@ body {
     margin-bottom: 2rem;
 }
 
-
 .team-member {
     background-color: #fff;
     padding: 2rem;
@@ -116,7 +127,6 @@ body {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-
 .team-member img {
     width: 150px;
     height: 150px;
@@ -125,7 +135,6 @@ body {
     margin-bottom: 1rem;
 }
 
-
 .team-member h2 {
     margin-bottom: 0.5rem;
     color: #2980b9;
@@ -133,10 +142,9 @@ body {
 }
 
 .team-member p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #7f8c8d;
 }
-
 
 /* Mariym presentation */
 /* Here */
@@ -162,11 +170,12 @@ body {
     }
 }
 
-@media   (max-width: 1600px){
+@media (max-width: 1600px) {
 
     img {
         width: auto;
     }
+}
 
 @media (max-width: 768px) {
     .about_us h1 {
@@ -176,14 +185,18 @@ body {
     .team-grid {
         grid-template-columns: 1fr; 
     }
+}
 
-    nav ul {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    nav ul li {
-        margin: 5px 0;
+@media  (max-width: 1024px) {
+    .team-grid {
+       display: flex;
+       flex-direction: column;
     }
 }
+
+@media  (max-width: 1600px) {
+
+    img {
+        width: auto;
+    }
 }
