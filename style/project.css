@@ -124,6 +124,7 @@ pre {
 .repo_article h3{
     font-size: 1.6rem;
 }
+
 .repo_article hr {
     margin-bottom: 50px;
     width: 300px;
@@ -134,10 +135,8 @@ pre {
 }
 
 .reposi_liste li {
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem; 
 }
-
 
 .create_repository{
      padding-left: 30px;
@@ -170,6 +169,7 @@ pre {
      
      
 }
+
 .steps_create_project h2 {
     font-size: 2.6rem;
     text-align: center;
