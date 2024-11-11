@@ -8,7 +8,6 @@ html {
 
 /*kavitha css*/
 body {
-    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
@@ -24,7 +23,7 @@ body {
 
 .kavi-process h2:nth-child(1),
 .kavi-process h2:nth-child(2) {
-    font-size: 1.6em; /* Reduced font size for smaller screens */
+    font-size: 1.6em; 
     padding: 15px;
     text-align: center;
     background-color: rgb(191, 222, 222);  
@@ -172,12 +171,12 @@ li {
     }
 
     .kavi-grid-container {
-        grid-template-columns: 1fr; /* Stacks items vertically on narrow screens */
+        grid-template-columns: 1fr; 
         grid-gap: 15px;
     }
 
     .kavi-step {
-        padding: 10px; /* Reduce padding for smaller screens */
+        padding: 10px; 
     }
 
     .kavi-step h3 {
@@ -190,6 +189,6 @@ li {
     }
 
     .kavi-step pre {
-        padding: 8px; /* Smaller padding in code blocks */
+        padding: 8px;
     }
 }
