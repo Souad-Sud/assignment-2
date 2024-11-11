@@ -1,7 +1,4 @@
-/* Srilatha's part*/
-/*Basic part*/
 * {
-    
     box-sizing: border-box;
 }
 
@@ -20,67 +17,40 @@ body {
     min-height: 100vh;
 }
 
-/* Container to Center Content */
 .kavi-container {
     width: 90%;
     margin: 0 auto;
 }
 
-.kavi-process {
-    background-color: #d8ebdf;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.kavi-process h2:nth-child(1) {
-    font-size:1.9em ;
-    padding: 20px;
-    text-align: center;
-}
-
+.kavi-process h2:nth-child(1),
 .kavi-process h2:nth-child(2) {
-    font-size: 1.8em;
+    font-size: 1.6em; /* Reduced font size for smaller screens */
+    padding: 15px;
     text-align: center;
-    margin-bottom: 20px;
+    background-color: rgb(191, 222, 222);  
 }
 
-/* Grid Container */
+/* Grid adjustments */
 .kavi-grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     padding: 20px 0;
 }
 
-/* Individual Step Styling */
 .kavi-step {
-    background-color: #f9f9f9;
+    background-color: rgb(191, 222, 222);
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .kavi-step h3 {
-    font-size: 1.4em;
-    margin-bottom: 10px;
+    font-size: 1.2em;
 }
 
 .kavi-step p {
-    margin-bottom: 10px;
-}
-
-.kavi-step pre {
-    background-color: #e2ecec;
-    padding: 10px;
-    border: 1px solid #525050;
-    overflow-x: auto;
-}
-
-.kavi-step code {
-    font-family: "Courier New", Courier, monospace;
-    color: #352f32;
+    font-size: 0.9em;
 }
 
 /* Header Styling */
@@ -191,5 +161,35 @@ li {
 
     .sri-section h3 {
         font-size: 1rem;
+    }
+}
+
+/* kavitha part responsive */
+@media screen and (max-width: 390px) {
+    .kavi-process h2:nth-child(1),
+    .kavi-process h2:nth-child(2) {
+        font-size: 1.3em;
+    }
+
+    .kavi-grid-container {
+        grid-template-columns: 1fr; /* Stacks items vertically on narrow screens */
+        grid-gap: 15px;
+    }
+
+    .kavi-step {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    .kavi-step h3 {
+        font-size: 1em;
+    }
+
+    .kavi-step p,
+    .kavi-step pre {
+        font-size: 0.9em;
+    }
+
+    .kavi-step pre {
+        padding: 8px; /* Smaller padding in code blocks */
     }
 }
