@@ -1,12 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-html {
-    margin: 0;
-}
-
-/*kavitha css*/
 body {
     background-color: #f4f4f4;
     color: #121212;
@@ -17,7 +8,7 @@ body {
 }
 
 .kavi-container {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -32,9 +23,10 @@ body {
 /* Grid adjustments */
 .kavi-grid-container {
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
     grid-gap: 20px;
-    padding: 20px 0;
+    padding: 30px 0;
+    width: 100%;
 }
 
 .kavi-step {
@@ -51,7 +43,6 @@ body {
 .kavi-step p {
     font-size: 0.9em;
 }
-
 
 /* Header Styling */
 .header_sri_changes {
@@ -117,28 +108,6 @@ ol {
 
 /*Srilatha's part*/
 /*Media Queries for tablets and smaller screen Responsive*/
-@media (max-width: 1900px) {
-
-
-    .kavi-grid-container{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .kavi-step{
-
-        display: flex;
-        flex-direction: column;
-       
-    }
-
-   
-    
-  
-} 
-    
-    
 
 @media screen and (max-width: 768px) {
     .sri section {
