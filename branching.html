@@ -10,22 +10,21 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./style/index.css" type="text/css">
+    <link rel="stylesheet" href="./style/navbar.css" type="text/css">
+    <link rel="stylesheet" href="style/branching.css" type="text/css">
     <title>assignment-2</title>
 </head>
 
 <body>
     <header class="header">
         <!-- Souad* the title should be in a container and the img should be outside the h1-->
-
         <div class="header_title">
-
             <h1>
-
                 Git & Github basics
             </h1>
-            <img src="./style/images/githubimage.png" alt="githubimage" h>
+            <img src="./style/images/githubimage.png" alt="githubimage" width="35px">
         </div>
-        <nav>
+        <nav class="navlink">
             <ul>
                 <li><a href="index.html">Home Page</a></li>
                 <li><a href="project.html">Our Project</a></li>
@@ -35,10 +34,73 @@
             </ul>
         </nav>
     </header>
-
-
-
-
+    <section class="branch_introduction">
+        <h2>Branching</h2>
+        <p><strong>Branching</strong> allows teams of developers to easily collaborate inside of one central code base.
+            When a developer
+            creates a branch, the version control system creates a copy of the code base at that point in time. Changes
+            to the branch don't affect other developers on the team.</p>
+        <p><strong>*Each repository has one default branch*</strong></p>
+        <div class="main_branch_container">
+            <div class="main_branch">
+                <span>Main</span>
+            </div>
+            <div class="vl"></div>
+            <div class="features">
+                <p>feature1</p>
+                <p>feature2</p>
+                <p>feature3</p>
+            </div>
+        </div>
+    </section>
+    <!--Mariym Aqbal-->
+    <section class="Merge_Files">
+        <h2>Merge Files</h2>
+        <p><strong>To merge files in GitHub</strong> you typically follow these steps:</p>
+        <ol>
+            <li>
+                Create a New Branch: create a new branch for your changes:
+                <div class="command-box">
+                    git checkout -b &lt;new-branch-name&gt;
+                </div>
+            </li>
+            <li>
+                Make Changes: Edit or add the files you want to merge.
+            </li>
+            <li>
+                Stage Your Changes: Add the changes to the staging area:
+                <div class="command-box">
+                    git add &lt;file1&gt; &lt;file2&gt; ...
+                </div>
+            </li>
+            <li>
+                Commit Your Changes: Commit the staged changes with a message:
+                <div class="command-box">
+                    git commit -m "Describe your changes"
+                </div>
+            </li>
+            <li>
+                Push Your Branch: Push your branch to the remote repository:
+                <div class="command-box">
+                    git push origin &lt;new-branch-name&gt;
+                </div>
+            </li>
+            <li>
+                Create a Pull Request: Go to the GitHub repository in your web browser. You'll see an option to create a
+                pull request for your newly pushed branch.
+            </li>
+            <li>
+                Review and Merge: After reviewing, you can merge the pull request. You may need to resolve any merge
+                conflicts if there are changes on the base branch.
+            </li>
+            <li>
+                Delete the Branch: Once merged, you can delete the branch both locally and remotely:
+                <div class="command-box">
+                </div>
+            </li>
+        </ol>
+        <p>That's it! Your files are now merged in the repository.</p>
+    </section>
     <footer class="footer">
         <p>&copy; 2024 5Girls</p>
     </footer>

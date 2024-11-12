@@ -1,0 +1,202 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.about_us {
+    margin: 200px auto;
+    padding: 2rem;
+    max-width: 1200px;
+}
+
+.intro-section {
+    background-color: #f9f9f9;
+    padding: 5rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    margin-bottom: 2rem; 
+    max-width: 1000px;   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Yasmin Presentation */
+
+/* Here */
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Yasmin Presentation */ 
+/* Section Styling */
+.frontend-learner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #eaeaea;
+}
+
+/* Profile Div Styling */
+.srilatha_profile {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+}
+
+/* Image Styling */
+.srilatha_profile img {
+    border-radius: 50%;
+    border: 5px solid #333;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Heading Styling */
+.srilatha_profile h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styling */
+.srilatha_profile p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+    text-align: center;
+}
+
+
+/* Souad Presentation */
+
+.Souad_presentation{
+    display: flex;
+    flex-direction:  row-reverse;
+}
+
+.souad_pre_block{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    padding: 30px;
+}  
+     
+
+.team-grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.team-member {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.team-member h2 {
+    margin-bottom: 0.5rem;
+    color: #2980b9;
+    font-size: 1.5rem;
+}
+
+.team-member p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+/* Mariym presentation */
+/* Here */
+
+/* srilatha Responsive Design */
+@media screen and(max-width: 768px) {
+    .srilatha_profile {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .srilatha_profile img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .srilatha_profile h1 {
+        font-size: 1.5rem;
+    }
+    
+    .srilatha_profile p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 1600px) {
+
+    img {
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .about_us h1 {
+        font-size: 2rem;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr; 
+    }
+}
+
+@media  (max-width: 1024px) {
+    .team-grid {
+       display: flex;
+       flex-direction: column;
+    }
+}
+
+@media  (max-width: 1600px) {
+
+    img {
+        width: auto;
+    }
+}

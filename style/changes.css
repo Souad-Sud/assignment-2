@@ -1,24 +1,52 @@
-/* Srilatha's part*/
-/*Basic part*/
-* {
-    
-    box-sizing: border-box;
-}
-
-html {
-    margin: 0;
-}
-
-/* Body Styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-    padding: 10px;
+    background-color: #f4f4f4;
+    color: #121212;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.kavi-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.kavi-process h2:nth-child(1),
+.kavi-process h2:nth-child(2) {
+    font-size: 1.6em;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(191, 222, 222);
+}
+
+/* Grid adjustments */
+.kavi-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+    grid-gap: 20px;
+    padding: 30px 0;
+    width: 100%;
+}
+
+.kavi-step {
+    background-color: rgb(191, 222, 222);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.kavi-step h3 {
+    font-size: 1.2em;
+}
+
+.kavi-step p {
+    font-size: 0.9em;
 }
 
 /* Header Styling */
-header {
+.header_sri_changes {
+    margin-top: 200px;
     background-color: #110f0f;
     color: #ca1a1a;
     padding: 20px;
@@ -26,13 +54,13 @@ header {
     margin-bottom: 20px;
 }
 
-header h1 {
+.header_sri_changes h1 {
     font-size:  2rem;
     font-weight: normal;
 }
 
 /* Section Styling */
-section {
+.sri-section {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -41,7 +69,7 @@ section {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
+.sri-section h2 {
     color: rgb(104, 177, 71);
     font-size: 1.5rem;
     margin-bottom: 20px;
@@ -51,30 +79,26 @@ ol {
     margin-left: 20px;
 }
 
-li {
-    margin-bottom: 20px;
-    color: rgb(19, 19, 18);
-}
 
-h3 {
+.sri-section h3 {
     font-size: 1.4rem;
     color: #d0279e;
     margin-bottom: 10px;
 }
 
-p {
+.sri-section p {
     margin-bottom: 10px;
     color: rgb(96, 89, 48);
 }
 
-code {
+.sri-section code {
     background-color: #f4f4f4;
     padding: 3px 6px;
     border-radius: 3px;
     font-family: monospace;
 }
 
-pre {
+.sri.section pre {
     background-color: #eee;
     padding: 10px;
     border-radius: 5px;
@@ -84,24 +108,27 @@ pre {
 
 /*Srilatha's part*/
 /*Media Queries for tablets and smaller screen Responsive*/
+
 @media screen and (max-width: 768px) {
-    section {
+    .sri section {
         padding: 15px;
         max-width: 100%;
     }
 
-    header h1 {
+    .header_sri_changes h1 {
         font-size: 1.8rem;
     }
 
-    section h2 {
+    .sri-section h2 {
         font-size: 1.3rem;
     }
 
-    h3 {
+    .sri-section h3 {
         font-size: 1.2rem;
     }
 }
+
+
 
 /* For mobile screens  */
 
@@ -110,19 +137,49 @@ pre {
         padding: 5px;
     }
 
-    header h1 {
+    .header_sri_changes h1 {
         font-size: 1.5rem;
     }
 
-    section {
+    .sri-section {
         padding: 10px;
     }
 
-    section h2 {
+    .sri-section h2 {
         font-size: 1.1rem;
     }
 
-    h3 {
+    .sri-section h3 {
         font-size: 1rem;
+    }
+}
+
+/* kavitha part responsive */
+@media screen and (max-width: 390px) {
+    .kavi-process h2:nth-child(1),
+    .kavi-process h2:nth-child(2) {
+        font-size: 1.3em;
+    }
+
+    .kavi-grid-container {
+        grid-template-columns: 1fr; 
+        grid-gap: 15px;
+    }
+
+    .kavi-step {
+        padding: 10px; 
+    }
+
+    .kavi-step h3 {
+        font-size: 1em;
+    }
+
+    .kavi-step p,
+    .kavi-step pre {
+        font-size: 0.9em;
+    }
+
+    .kavi-step pre {
+        padding: 8px;
     }
 }

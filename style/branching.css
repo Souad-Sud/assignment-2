@@ -1,0 +1,151 @@
+.branch_introduction {
+    margin: 200px 300px 100px 300px;
+}
+
+.branch_introduction h2 {
+    font-size: 2.6rem;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.branch_introduction p {
+    font-size: 1.5rem;
+}
+
+/* main branch */
+.main_branch_container {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.main_branch_container .main_branch{
+    font-size: 1.6rem;
+    background-color: #6dc3bf;
+}
+
+.main_branch span {
+    background-color:#6dc3bf;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.main_branch_container .vl {
+    border-left: 6px solid green;
+    height: 50px;
+    margin-top: 35px;
+}
+
+.main_branch_container .features {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+}
+
+.features p {
+    background-color: #6dc3bf;
+    padding: 17px;
+}
+
+.Merge_Files{
+    margin: 100px 300px 100px 300px;
+}
+
+.Merge_Files h2 {
+    font-size: 2.6rem;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.Merge_Files p {
+    font-size: 1.5rem;
+}
+
+.command-box {
+    border: 2px solid #3498db;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.Merge_Files {
+ max-width: 600px;
+ margin: auto;
+ padding: 20px;
+}
+
+@media   (max-width: 375px){
+    .branch_introduction {
+        margin: 0;
+        padding: 60px 0px 60px 0px;
+    }
+
+    .branch_introduction p {
+        padding: 10px;
+    }
+
+    .features{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .features p {
+        padding: 5px;
+    }
+}
+
+@media   (max-width: 430px){
+    .branch_introduction {
+        margin: 0;
+        padding: 60px 0px 60px 0px;
+    }
+
+    .branch_introduction p {
+        padding: 10px;
+    }
+
+    .features{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .features p {
+        padding: 5px;
+    }
+}
+
+@media   (max-width: 853px){
+
+    .branch_introduction {
+        margin: 0;
+        padding: 60px 0px 60px 0px;
+    }
+
+    .branch_introduction p {
+        padding: 10px;
+    }
+
+    .features{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .features p {
+        padding: 5px;
+    }
+}
