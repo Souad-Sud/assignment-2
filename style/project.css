@@ -59,6 +59,7 @@ nav ul li:hover {
     margin: 100px 0px 100px 0px;
     padding: 24px;
     text-align: center;
+    
 }
 
 /* grid-content */
@@ -66,15 +67,19 @@ nav ul li:hover {
     background-color: #384749;
     display: grid;
     gap: 24px;
-    grid-template: repeat(4, 200px) / repeat(3, calc(30% - 48px / 3));
-    padding: 24px;
+    grid-template: repeat(3, 200px) / repeat(4, calc(25% - 48px / 3));
+    padding: 35px;
+    margin: 50px 50px;
+    
 }
 
 .grid-content__item-sree {
     background-color: #bde0fe;
     border-radius: 8px;
     border: 1px solid #ccc;
+    padding: auto;
     overflow: hidden;
+    text-align: center;
     box-shadow: 0 4px 8px rgba(0 0 0 1);     
 }
 
@@ -373,6 +378,11 @@ pre {
     .create_repository .repositoy_captur {
        max-width: 100%;
     }
+
+    .grid-content-sree {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 430px) {
@@ -383,6 +393,11 @@ pre {
     .create_repository .repositoy_captur {
         max-width: 100%;
      }
+
+     .grid-content-sree {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 540px) {
@@ -393,13 +408,41 @@ pre {
 
 }
 
-@media screen and (min-width: 768px) {  
-    .grid-content {
-        grid-template: repeat(4, 200px) / 1fr;
+@media  (max-width: 768px) {
+    .grid-content-sree {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin: 30px;
     }
 
-}
+    .yasmin-header {
+        text-align: center;
+        margin-top: 100px;
+    }
 
+    #overview {
+        text-align: center;
+        margin: 100px 0px 50px 0px;
+    }
+
+    #Contribute {
+        background-color: #a1f3ef;
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+    }
+
+    ol li {
+        list-style-position: inside;
+    }
+
+    #guidelines {
+        margin-top: 100px;
+        text-align: center;
+    }    
+}
+ 
 @media screen and(min-width: 1024px) {
     .grid-content {
         grid-template: repeat(4, 200px) / repeat(2, calc(45% - 24px));
@@ -453,9 +496,40 @@ pre {
         display: flex;
         flex-direction: column;        
     }   
+
+    .grid-content-sree {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .yasmin-header {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    #overview {
+        text-align: center;
+        margin: 100px 0px 50px 0px;
+    }
+
+    #Contribute {
+        background-color: #a1f3ef;
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+    }
+
+    ol li {
+        list-style-position: inside;
+    }
+
+    #guidelines {
+        margin-top: 100px;
+        text-align: center;
+    }
 }
 
-@media (max-width: 1400px){
+@media (max-width: 1280px){
 
  .repo_article {
         margin: 100px 20px 100px 20px;
@@ -477,8 +551,21 @@ pre {
 
     /* yasmine code */
 
-    .overview {
+    #overview {
         margin: 100px 50px 100px 50px;
+    }
+
+    .yasmin-header {
+        text-align: center;        
+    }
+
+    #Contribute {
+        text-align: center; 
+        list-style-position: inside;  
+    }
+
+    #guidelines {
+        text-align: center;
     }
 }
 

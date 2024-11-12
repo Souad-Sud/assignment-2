@@ -152,6 +152,16 @@ ol {
     .sri-section h3 {
         font-size: 1rem;
     }
+
+    .kavi-container {
+        margin-top: 100px;
+    }
+
+    .kavi-grid-container {
+
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* kavitha part responsive */

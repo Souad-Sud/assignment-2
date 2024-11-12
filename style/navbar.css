@@ -131,6 +131,21 @@
     .header {
         display: flex;
         flex-direction: column;
+        
+    }
+
+    .navlink ul {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 853px) {
+    .navlink ul {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
     }
 }
 
