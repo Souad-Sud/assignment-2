@@ -258,6 +258,12 @@ pre {
 }
 /*..*/
 
+/*mariyam part*/
+strong {
+    padding-left: 50px;
+    font-size: 1rem;
+}
+
 /* yasmine part*/
 header p {
     font-size: 1.2rem;
