@@ -129,7 +129,12 @@ ol {
 }
 
 
-
+@media (max-width: 540px) {
+    .kavi-grid-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
 /* For mobile screens  */
 
 @media screen and (max-width: 480px) {
