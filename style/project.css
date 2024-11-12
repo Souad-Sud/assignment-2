@@ -181,6 +181,10 @@ strong {
     font-size: 1.6rem;
     padding: 0px;    
 }
+strong {
+    padding-left: 50px;
+    font-size: 1rem;
+}
 
 /* kavi Git Commands for Creating a Local Project */
 .kavi-header{
@@ -588,3 +592,59 @@ pre {
     }
 }
 
+/*mariyam part*/
+strong {
+    padding-left: 50px;
+    font-size: 1rem;
+}
+
+/* yasmine part*/
+header p {
+    font-size: 1.2rem;
+}
+
+/*main*/
+main {
+    color: black;
+    text-align: center;
+    margin: 50px 0;
+    padding: 50px 0;
+}
+
+
+section {
+    margin-bottom: 40px;
+}
+
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+p, li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+pre {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+
+.footer {
+    background-color: #6dc3bf;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position:sticky;
+    bottom: 0;
+}
+
+.footer p {
+    font-size: 1rem;
+    margin: 0;
+}
