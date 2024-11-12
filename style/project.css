@@ -304,11 +304,16 @@ pre {
     padding-top: 20px;
     font-size: 1.2rem;
 }
+
+.yasmin-header {
+    margin: 200px auto 80px 50px;
+    text-align: center;
+}
   
-#overview {
-     margin-bottom: 30px;
+#overview { 
+     margin: auto;
+     text-align: center;
      padding: 20px;
-     
 }
 
 #overview h2 {
@@ -327,6 +332,16 @@ pre {
     padding-bottom: 20px;
     text-align: center;
 }
+
+#Contribute ol {
+    text-align: center;
+    list-style: inside;
+}
+
+#guidelines {
+    text-align: center;
+}
+
 .contribute_ordered-Lists {
     text-align: center;
     list-style-position: inside;
