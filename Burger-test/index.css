@@ -1,0 +1,165 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    font-family: "PT Serif", serif;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+:root{
+
+    --color1 : #BFA100;
+    --color2 : #DBD9CB;
+    --color3 : #E8E8E8;
+    --color4 : #DFE5ED;
+    --color5 : #C49A43;
+    --color6 : #D7D5C8;
+    --color7 : #BFA100;
+    --color8 : #77694C;
+    --color9 : #E4E4E4;
+    --color10 : #9d9158;
+}
+
+
+ 
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    height: 5000px;
+    background-color: gray;
+    /* to avoid shifting upwards */
+    padding-top: 60px;
+}
+
+header{
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    height: 200px;
+    /* width: 100%; */
+      background-image: url("/img/ring-imag.jpg");  
+    width: 100%;
+    /* to make the header sticky on top */
+   position: sticky;
+}
+
+.logo{
+    font-size: 23px;
+    letter-spacing: -1.5px;
+    font-weight: 500;
+}
+
+
+.nav__link{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 15px;
+}
+
+
+
+/* parent element */
+.header__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    min-height: 60px;
+    background-color: var(--color1);
+}
+
+ 
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+.nav{
+    transition: all 0.3s ease-in-out;
+     
+}
+
+
+/* burger */
+.bar{
+    height: 2px;
+    width: 27px;
+    background: #fff;
+    margin: 5px 0;
+    opacity: 0.8;
+    transition: all 0.5s ease-in-out;
+        
+    
+}
+
+.hamurger{
+    display: none;
+    cursor: pointer;
+}
+
+
+/* for js */
+
+.nav__open{
+    /* important to avoid conflict */
+    transform: translate(0) !important;
+     
+}
+.hamburger__open .bar:nth-child(1){
+    transform: translateY(7px) rotate(45deg);
+     
+}
+.hamburger__open .bar:nth-child(2){
+    opacity: 0;
+     
+}
+.hamburger__open .bar:nth-child(3){
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+@media (max-width: 650px){
+    .header{
+        background-position: center;
+        padding: 30px 20px 0px 20px;
+        background-blend-mode: screen;
+        background-color: rgba(16, 2, 108, 0.612);
+        margin-top: 0px;
+
+    }
+    
+        
+    /* put it under the logo */
+    .nav{
+        position: fixed;
+        top: 90px;
+        left: 0;
+        background-color: var(--color1);;
+        width: 100%;
+        padding: 10px 0 25px;
+        transform: translateX(-100%);
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    li{
+        font-size: 14px;
+    }
+
+    .hamurger{
+        display: block;
+    }
+
+}

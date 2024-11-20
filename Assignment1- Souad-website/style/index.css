@@ -1,0 +1,477 @@
+/* Universal selection befor and after */
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    font-family: "PT Serif", serif;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+body{
+  
+        font-family: "PT Serif", serif;
+        background-color: var(--bcg);
+  
+}
+
+/* I used :root to create variables for my colors */
+:root{
+
+    --color1 : #BFA100;
+    --color2 : #DBD9CB;
+    --color3 : #E8E8E8;
+    --color4 : #DFE5ED;
+    --color5 : #C49A43;
+    --color6 : #D7D5C8;
+    --color7 : #BFA100;
+    --color8 : #77694C;
+    --color9 : #E4E4E4;
+    --color10 : #9d9158;
+    --bcg :#D7D5C8;
+} 
+
+/* ________Header________ */
+
+.header{
+
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    background-image: url("/img/ring-imag.jpg");
+}
+ 
+.navigation__bar{
+ 
+    padding: 10px;
+    background-color: var(--color1);
+    align-items: center;
+    margin: 30px 25px 30px 25px;
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    align-items: center;
+}
+.navigation__bar .logo{
+    
+    height: 80px;
+   
+}
+
+
+.nav-menu{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 15px;
+    display: flex;     
+    float: row; 
+    list-style: none;
+    justify-content: space-around;  
+    align-items: center;
+}
+ 
+/* Hover on the navigation's link */
+.navigation_item {
+   
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    position: relative;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+
+ 
+
+.navigation_item a{
+    text-decoration: none;
+    color: rgb(239, 238, 238);
+    padding: 10px;
+    font-size: 1.5rem;
+    transform:  0.7s ease;
+}
+
+.navigation_item::after{
+    content: '';
+    position: absolute;
+    background-color: var(--color4);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s ease;
+
+}
+
+.navigation_item:hover::after{
+    width: 100%;
+}
+
+.navigation_item a:hover, a:focus{
+    color: white;
+    font-weight: bold;
+}
+ 
+ 
+/* ------hamburger button ------ */
+ 
+.hamburger{
+    display: none;
+    cursor: pointer;
+    
+}
+.bar{
+    display: block;  
+    width: 30px;
+    height: 4px;
+    border-radius: 2px;
+    border: 1px solid rgb(236, 210, 210); 
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+   
+}
+
+.header_title h1{
+    color: rgb(255, 255, 255);
+     
+    align-items: center;
+     margin-left: 100px;
+    font-size: 3rem;
+     margin-top: 200px;
+     font-size: 4rem;
+     
+ 
+}
+
+
+ 
+ 
+.header_title h1 span{
+    color: rgba(136, 93, 18, 0.898);
+    border-bottom: 10px double 	#FFFAFA;
+
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+/* Boddy css */
+
+
+.home__section .home_title{
+     font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin: 100px 0px 100px 0px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    
+
+}
+.home__content{
+   
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 200px 0px 200px;
+    
+     
+}
+
+.home__paragr{
+    padding: 20px;
+    margin: 20px;
+    
+    
+}
+.home__paragr p {
+    line-height: 1.7; 
+    font-size: 1.3rem;
+}
+
+
+
+/* img__gallery */
+.img__gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px 50px 100px 50px;
+}
+
+.img__sing_container{
+   
+    margin: 10px;
+    text-align: center;
+    
+}
+.img__container{
+    height: 700px;
+    width: 400px;
+    
+    background-color: white;
+}
+
+
+.img__item{
+    object-fit: cover;
+    width:100%; 
+    height:100%;
+}
+
+.img__sing_container h3{
+    padding: 10px;
+    margin-top: 12px;
+    
+}
+
+/* Article css display Grid */
+
+.home__artice{
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    flex-direction: row-reverse;
+     justify-content: space-evenly;
+    border-top: 1px solid #BFA100;
+    border-bottom: 1px solid #BFA100;
+    align-items: center;
+    height: 100%;
+    
+    
+   
+}
+
+.article_info{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px; 
+    
+}
+.article_info h2 {
+    font-size: 1.6rem;
+}
+
+.article_info button{
+    align-items: center;
+    width: 250px;
+    margin-top: 30px;
+    background-color: var(--color1);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    font-size: 1.5rem;
+
+}
+
+.about__article{
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    flex-direction: row;
+     justify-content: space-evenly;
+     border-top: 1px solid #BFA100;
+     border-bottom: 1px solid #BFA100;
+    align-items: center;
+    height: 100%;
+}
+
+.article_img_container{
+    height: 600px;
+    width: 700px;
+}
+
+.article_img_container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+ 
+ 
+
+
+/* Grid */
+
+.grid{
+    display: grid;
+    margin: 100px 300px 100px 300px;
+    /* repeat it four times each column same width */
+    grid-template-columns: repeat(4, 1fr);
+    /* 100px minimun and max auto for the content */  
+     grid-auto-rows: minmax(100px, auto); 
+    gap: 1em;
+    grid-template-areas: 
+    "green__bracelet earring__chakra earring__chakra brown__bracelet "
+    /* "head main main section" */
+    /* "aside navv navv foooter" */
+    "white_brown_bracelet white_earring white_earring white_green_bracelet"
+    /* "mor another another same" */
+    "bracelet_chakra pink_earring pink_earring bleu_bracelet"
+    ;
+ 
+    /* grid-template-areas: "grid__areaA, grid__areaA, grid__areaA";  */
+
+}
+
+
+.green__bracelet{
+    grid-area: green__bracelet;
+  
+    
+}
+.earring__chakra {
+    grid-area: earring__chakra;
+ 
+    
+}
+.brown__bracelet{
+    grid-area: brown__bracelet;
+    
+    
+}
+.white_brown_bracelet{
+    grid-area: white_brown_bracelet;
+     
+    
+}
+
+.white_earring{
+    grid-area: white_earring;
+    
+   
+}
+.white_green_bracelet{
+    grid-area: white_green_bracelet;
+     
+    
+}
+.bracelet_chakra{
+    grid-area: bracelet_chakra;
+   
+    
+}
+
+.pink_earring{
+    grid-area: pink_earring;
+    
+     
+}
+
+.bleu_bracelet{
+    grid-area: bleu_bracelet;
+    
+    
+}
+
+.grid img{
+    object-fit: cover;
+     width: 100%;
+    height: 534px;
+ }
+
+ .grid h4 {
+    font-size: 1.4rem;
+    padding: 10px;
+    text-align: center;
+ }
+ 
+/* Media query for small devices*/
+
+@media (max-width: 950px) {
+ 
+    body {
+        margin: 0px;
+        padding: 0px;
+         
+    }
+    header{
+        background-position: center;
+       
+        background-blend-mode: screen;
+        background-color: rgba(201, 170, 103, 0.612);
+        background-position: center;
+        background-image: url("img/ring-imag.jpg");
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+         
+    }
+ 
+    .navigation__bar{
+        background-color: var(--color1);
+        margin: 0px auto;
+    }
+    
+    .nav-menu{
+        position: fixed;
+        left: -200%;
+        top: 60px;
+        gap: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color1);
+        height: 500px;
+        transition: 0.5s;       
+        width: 100%;
+        text-align: center;
+         
+     
+    }
+    .navigation_item{
+        margin: 16px 0px;
+        color: white;
+ 
+    }
+
+    
+    /*Responsive hamburger menu */
+
+    .hamburger{
+        display: block;
+      
+   }
+   .bar{
+       background-color: white;
+   }
+
+   
+    /* ----active is a class that has been created in JS----- */
+
+   .hamburger.active .bar:nth-child(2){
+       opacity: 0;
+   }
+   .hamburger.active .bar:nth-child(1){
+       transform: translateY(10px) rotate(45deg);
+   }
+
+   .hamburger.active .bar:nth-child(3){
+       transform: translateY(-10px) rotate(-45deg);
+        
+   }
+
+   .nav-menu.active{
+       left: 0;
+   }
+
+   .header_title h1{
+        color: rgb(48, 47, 47);
+        font-weight: bold;
+        margin: 70px 20px auto 20px;          
+   
+    }
+
+ 
+    
+
+}
